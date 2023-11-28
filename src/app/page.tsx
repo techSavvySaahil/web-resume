@@ -122,19 +122,6 @@ export default function Home() {
                           >saahil.madaan@gmail.com</a
                           >
                         </div>
-                        <div className="q2du_q-contact" data-q1vt_q-name="phone">
-                          <div className="q1yx_q-contact-holder x-t-c1-color">
-                            <div
-                              className="q1yx_q-contact"
-                              style={{
-                                backgroundImage: "url('https://d.novoresume.com/yna_pub/svg/contact/phone/a-1.svg')"
-                              }}></div>
-                          </div>
-                          <a
-                            className="q1vt_q-contact q1yv_q-size-e q1yv_q-b q2dn_q-wrap-pdf"
-                          >+91-7829600029</a
-                          >
-                        </div>
                       </div>
                       <div className="q2dm_q-group">
                         <div
