@@ -149,7 +149,7 @@ export default function Home() {
                           </div>
                           <a
                             className="q1vt_q-contact q1yv_q-size-e q1yv_q-b q2dn_q-wrap-pdf"
-                          >Bangalore, India</a
+                          >Bengaluru, India</a
                           >
                         </div>
                         <div className="q2du_q-contact" data-q1vt_q-name="linkedin">
