@@ -4,7 +4,7 @@
 #
 name: Deploy Next.js site to Pages
 env:
-  Custom_Workspace: "/home/runner/work/web-resume"
+  CUSTOM_WORKSPACE: "/home/runner/work/web-resume"
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -35,12 +35,12 @@ jobs:
       - name: Detect package manager
         id: detect-package-manager
         run: |
-          if [ -f "${{ Custom_Workspace }}/yarn.lock" ]; then
+          if [ -f "${{ CUSTOM_WORKSPACE }}/yarn.lock" ]; then
             echo "manager=yarn" >> $GITHUB_OUTPUT
             echo "command=install" >> $GITHUB_OUTPUT
             echo "runner=yarn" >> $GITHUB_OUTPUT
             exit 0
-          elif [ -f "${{ Custom_Workspace }}/package.json" ]; then
+          elif [ -f "${{ CUSTOM_WORKSPACE }}/package.json" ]; then
             echo "manager=npm" >> $GITHUB_OUTPUT
             echo "command=ci" >> $GITHUB_OUTPUT
             echo "runner=npx --no-install" >> $GITHUB_OUTPUT
